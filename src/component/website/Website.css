@@ -1,0 +1,446 @@
+@import 'antd/dist/antd.css';
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .container-fluid h2{
+    font-size: 40px;
+    font-family: 'Vollkorn', serif;
+    font-weight: bold;
+} */
+
+  /* .container-fluid h2{
+    animation-name: example1;
+    animation-duration: 10s;
+    animation-iteration-count: 100;
+  } */
+
+  /* @keyframes example1 {
+    from {color:rgba(107, 169, 255, 0.646);}
+    to {color: rgb(132, 37, 0);}
+  } */
+
+/* .container-fluid p{
+    font-family: 'Square Peg', cursive;
+    font-size: x-large;
+    font-size: 40px;
+} */
+
+  
+  /* .container-fluid p{
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: 100;
+  }
+
+  @keyframes example {
+    from {color: rgba(107, 169, 255, 0.646);}
+    to {color: rgb(0, 0, 0);}
+  } */
+
+/* fix container css*/
+.fix{
+    position: fixed;
+    width: 100%; 
+}
+
+@media (min-width: 5500px) {
+    .fix{
+      max-width: 5500px;
+    }
+  }
+  
+/* navbar container css */
+   .navbar {
+       /* background-color: white; */
+       height: 100px;
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       padding-bottom: -10px;
+       
+     
+   }
+
+   .navbar-con{
+       background-color: white;
+       width: 79%;
+       height: 75px;
+       display: flex;
+       opacity: 0.9;
+       flex-wrap: wrap;
+       box-shadow: 0 0 16px #000000; 
+       justify-content: center;
+       margin-left: 10%;
+       border-bottom: 2px solid rgb(0, 0, 0);
+       border-radius: 10px;
+   }
+
+   .navbar-con a {
+       font-size: 30px;
+       font-family: 'Audiowide';
+       font-weight: bold;
+       color: rgb(0, 0, 0);
+       text-decoration: none;
+       transition: 0.9s;  
+       margin-top: 20px;
+       margin-left: 80px;
+   }
+   .navbar-con a:hover{
+    color: rgb(117, 171, 214);
+   }
+
+   .navbar-con button {
+     margin-top: 10px;
+     margin-left: 90px;
+     color:rgb(255, 255, 255);
+     border-radius: 30px;
+     padding: 8px;
+     border-color: #1261A0;
+     font-family: 'Audiowide';
+     background-color:  #1261A0;
+     font-size: 18px;
+     
+   }
+
+   button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+   }
+
+.image img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 16px #767474; 
+}
+     
+.container-fluid{
+    margin-top: -600px;
+    width: 25px;
+}
+
+.login-container img{
+    width: 100%;
+    height: 80%;   
+}
+
+/* .login-container{
+    overflow-x: hidden;
+    width: 460px;
+    margin-left: 500px;
+    border-radius: 10px;
+    height: 400px;
+    margin-top: -600px;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border-color: ece9e9;
+    opacity: 0.9;
+    border-radius: 10px;
+    box-shadow: 0 0 16px #ece9e9; 
+}
+.login-img img{
+   width: 100%;
+   height: 700px;
+}
+.login-container form input{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 350px;
+    border-color: black;
+}
+.login-container label{
+    margin-left: 25px;
+    margin-top: 6px;
+   
+}
+.login-container button{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.login-container a{
+    font-size: 25px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bold;
+}
+.login-container a:hover{
+    color: rgb(0, 0, 0); 
+}
+.login-container img{
+    height: 20px;
+    width: 20px;
+} */
+.registration-page img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.registration-form{
+overflow-x: hidden;
+width: 500px;
+margin-left: 480px;
+border-radius: 10px;
+height: 800px;
+margin-top: -850px;
+font-family: 'Montserrat-SemiBold';
+font-size: 30px;
+border-radius: 5px;
+color: rgb(255, 255, 255);
+border-color: black;
+opacity: 0.8;
+background-color: #000000;
+border-radius: 10px;
+box-shadow: 0 0 16px #767474; 
+}
+.registration-form label{
+    font-size: 25px;
+    margin-left: -300px;
+    margin-top: 20px;
+}
+.registration-form input{
+    width: 400px;
+    margin-left: 50px;
+}
+.col-md-6 label{
+    margin-left: -100px;
+}
+
+.col-md-14 label{
+    margin-left: -200px;
+}
+.col-md-5 select{
+    margin-left: 50px;
+}
+.col-md-5 label{
+    margin-left: -50px;
+}
+.col-md-6 select{
+    margin-left: 50px;
+}
+.col-12 button {
+    margin-top: 10px;
+    float: right;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.footer{
+    border-top: 2px solid rgb(0, 0, 0);
+       border-radius: 10px;
+    /* background-color: #000000; */
+    width:100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+  
+    margin-top: 50px;
+}
+@media (min-width: 5500px) {
+    .footer{
+      max-width: 5500px;
+    }
+  }
+
+  @media (min-width: 5500px) {
+    .links{
+      max-width: 5500px;
+    }
+  }
+
+.links{
+    /* background-color: #782121; */
+       width: 60%;
+       height: 200px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+}
+
+.footer-web{
+    /* background-color: #767474; */
+    width: 200px;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+.footer-web h5{
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.footer-web a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 70px;
+    font-size: 20px;
+}
+.location{
+    width:300px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.location img{
+  width: 50px;
+  height: 50px;
+ 
+}
+.location p{
+    margin-top: 10px;
+}
+
+.contact{
+    width:300px;
+    margin-left: 30px;
+    margin-top: 10px;
+   
+}
+.contact img{
+    width: 50px;
+    height: 50px;
+  }
+  .contact p{
+      margin-top: 10px;
+  }
+  .email{
+    width:300px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+  }
+.email img{
+    width: 50px; 
+    height: 50px;
+   
+  }
+  .email p{
+      margin-top: 10px;
+  }
+  .social{
+      /* background-color: rgb(212, 128, 17); */
+      display: flex;
+     width: 500px;
+     margin-left: 10px;
+      justify-content: space-evenly;
+  }
+  .line{
+      /* background-color: aqua; */
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+  }
+  .connect h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Inconsolata', monospace;
+  }
+  .twitter img{
+      width: 50px;
+      height: 50px;
+  }
+  .facebook img{
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .instagram img{
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  .login-container{
+    background-color: #ffffff;
+    overflow-x: hidden;
+    width: 450px;
+    border-radius: 10px;
+    height: 500px;
+    font-family: 'Montserrat-SemiBold';
+    font-size: 30px;
+    display: flex;
+    margin-top: -603px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 16px #000000; 
+}
+.login{
+  width: 100%;
+  display: flex;
+ justify-content: center;
+ border-color: rgb(0, 0, 0);
+}
+.login-container form input{
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 360px;
+  border-color: rgb(0, 0, 0);
+}
+.login-container label{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.login-container button{
+  font-size: 22px;
+  margin-top: 20px;
+}
+.login-container a{
+  font-size: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font: bold;
+}
+.login-container a:hover{
+  color: rgb(72, 190, 249); 
+}
+.login-container p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.login-container h1{
+  margin-top: 10px;
+  font-family: 'Great Vibes', cursive;
+}
+.image img{
+  width: 100%;
+  height: 720px;
+}
+.inside-div{
+  background-color: #000000;
+  width:100%;
+  opacity:0.6;
+  height: 700px;
+  margin-top: -700px;
+  z-index: -1000;
+}
+
+/* .shop-nav{
+  background-color: #000000;
+} */
+.container-fluid1{
+  background-color: rgb(0, 0, 0);
+  width: 79%;
+  height: 75px;
+  display: flex;
+  opacity: 0.9;
+  flex-wrap: wrap;
+  box-shadow: 0 0 16px #000000; 
+  justify-content: center;
+  margin-left: 10%;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
